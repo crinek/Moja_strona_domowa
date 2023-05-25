@@ -3,7 +3,6 @@
 
 html {
     box-sizing: border-box;
-    scroll-behavior: smooth;
 }
 
 *,
@@ -21,8 +20,6 @@ body {
     width: 100%;
     background-color: #fd5e3a;
     padding: 10px;
-    position: fixed;
-    box-shadow: 0px 1px 20px rgb(0,0,0);
 }
 
 .head__title {
@@ -33,41 +30,27 @@ body {
 }
 
 .menu {
-    margin: 10px 0;
-    padding: 0;
-    list-style-type: none;
-    display: flex;
+    margin: 0;
 }
 
 .menu__item {
     color: darkslategray;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
-    padding-right: 20px;
 }
 .menu__link {
-    text-decoration: none;
-    color: lightgoldenrodyellow;
+    color: darkslategray;
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-}
-
-.menu__link:hover {
-    color:black;
+    font-size: 12px;
 }
 
 
 /* SEKCJA MAIN */
-
-.blog {
-    padding-top: 120px;
-}
 .main {
     background-color: white;
     max-width: 600px;
     margin: 0 auto; 
     padding: 10px;
-    padding-top: 150px;
 }
 
 .hero__name { 
@@ -140,15 +123,4 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     margin: 0;
-}
-
-.footer__top {
-    background-color: #fd5e3a;
-    color: white;
-    text-decoration: none;
-    padding: 5px;
-    font-family: 'Roboto', sans-serif;
-    right: 20px;
-    bottom: 20px;
-    position: fixed;
 }
