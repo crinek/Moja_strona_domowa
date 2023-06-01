@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: rgb(165, 165, 165);
+}
+
+/* SEKCJA HEADER */
+.head {
+    width: 100%;
+    background-color: #fd5e3a;
+    padding: 10px;
+}
+
+.head__title {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+
+.menu {
+    margin: 0;
+}
+
+.menu__item {
+    color: darkslategray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+.menu__link {
+    color: darkslategray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+
+/* SEKCJA MAIN */
+.main {
+    background-color: white;
+    max-width: 600px;
+    margin: 0 auto; 
+    padding: 10px;
+}
+
+.hero__name { 
+    color: tomato;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    margin: 0;
+}
+
+.hero__image {
+    width: 200px;
+    box-sizing: content-box;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 50px;
+}
+
+.hero__description {
+    color: darkslategray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+}
+
+.heroList__title {
+    color: tomato;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.heroList__item {
+    color: darkslategray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.article__title {
+    color: tomato;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+.article__paragraph {
+    color: darkslategray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    margin: 0;
+    padding: 10px;
+}
+
+#articles {
+}
+
+/* SEKCJA FOOTER */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 50px;
+}
+
+.footer__paragraph {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin: 0;
+}
